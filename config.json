@@ -2,17 +2,53 @@
   "title": "For Elecom Trackball",
   "rules": [
     {
-      "description": "For Elecom Trackball",
+      "description": "Swipe Full-Screen Apps",
       "manipulators": [
         {
           "type": "basic",
           "from": {
-            "mouse_key": { "vertical_wheel": -0.1 }
+            "pointing_button": "button6"
           },
           "to": [
-              {
-                  "mouse_key": { "vertical_wheel": 0.1 }
-              }
+            {
+              "key_code": "left_arrow",
+              "modifiers": [
+                  "control"
+              ]
+          }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button7"
+          },
+          "to": [
+            {
+              "key_code": "right_arrow",
+              "modifiers": [
+                  "control"
+              ]
+          }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Launchpad from Mouse",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button7"
+          },
+          "to": [
+            {
+              "key_code": "l",
+              "modifiers": [
+                  "control"
+              ]
+          }
           ]
         }
       ]

@@ -15,18 +15,6 @@
               "modifiers": "left_control"
             }
           ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "pointing_button": "button7"
-          },
-          "to": [
-            {
-              "key_code": "right_arrow",
-              "modifiers": "left_control"
-            }
-          ]
         }
       ]
     },

@@ -12,10 +12,8 @@
           "to": [
             {
               "key_code": "left_arrow",
-              "modifiers": [
-                  "left_control"
-              ]
-          }
+              "modifiers": "left_control"
+            }
           ]
         },
         {
@@ -26,10 +24,8 @@
           "to": [
             {
               "key_code": "right_arrow",
-              "modifiers": [
-                  "left_control"
-              ]
-          }
+              "modifiers": "left_control"
+            }
           ]
         }
       ]
@@ -45,10 +41,8 @@
           "to": [
             {
               "key_code": "l",
-              "modifiers": [
-                  "left_control"
-              ]
-          }
+              "modifiers": "left_control"
+            }
           ]
         }
       ]

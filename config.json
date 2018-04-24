@@ -1,0 +1,21 @@
+{
+  "title": "For Elecom Trackball",
+  "rules": [
+    {
+      "description": "For Elecom Trackball",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "mouse_key": { "vertical_wheel": -0.1 }
+          },
+          "to": [
+              {
+                  "mouse_key": { "vertical_wheel": 0.1 }
+              }
+          ]
+        }
+      ]
+    }
+  ]
+}

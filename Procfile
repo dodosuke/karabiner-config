@@ -1,0 +1,1 @@
+web: karabiner-config

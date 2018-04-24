@@ -13,7 +13,7 @@
             {
               "key_code": "left_arrow",
               "modifiers": [
-                  "control"
+                  "left_control"
               ]
           }
           ]
@@ -27,7 +27,7 @@
             {
               "key_code": "right_arrow",
               "modifiers": [
-                  "control"
+                  "left_control"
               ]
           }
           ]
@@ -40,13 +40,13 @@
         {
           "type": "basic",
           "from": {
-            "pointing_button": "button7"
+            "pointing_button": "button8"
           },
           "to": [
             {
               "key_code": "l",
               "modifiers": [
-                  "control"
+                  "left_control"
               ]
           }
           ]
